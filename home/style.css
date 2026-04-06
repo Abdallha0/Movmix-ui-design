@@ -1,0 +1,31 @@
+        .font-BebasNeue {
+            font-family: "Bebas Neue", system-ui;
+        }
+
+        .scroll-hidden {
+            scrollbar-width: none;
+        }
+
+        .gradiant-border-animate {
+            animation: gradiant-border-animate 6s infinite ease-in-out;
+            spin-slow: spin 12s linear infinite;
+            transform: skew(3deg);
+
+        }
+
+        @keyframes gradiant-border-animate {
+            0% {
+                background-position: 0% 50%;
+                box-shadow: 0 0 10px 1px #b91c1c8a;
+            }
+
+            50% {
+                background-position: 100% 50%;
+                box-shadow: 0 0 10px 1px black;
+            }
+
+            100% {
+                background-position: 0% 50%;
+                box-shadow: 0 0 10px 1px #b91c1c8a;
+            }
+        }
