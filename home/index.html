@@ -17,12 +17,11 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="min-h-screen bg-[#070707]">
+<body class="min-h-screen bg-gradient-to-b from-[#070707_60%] to-zinc-800">
     <!-- ============================================= -->
     <!-- Section 1: Header Section -->
     <!-- ============================================= -->
-    <header
-        class="fixed z-[99] w-full top-0 left-0 flex justify-between p-4 items-center bg-[#070707] shadow-sm shadow-black">
+    <header class="fixed z-[99] w-full top-0 left-0 flex justify-between p-4 items-center">
         <div class="relative">
             <h1 class="text-3xl skew-x-6 tracking-wide font-BebasNeue text-red-800 cursor-default">
                 MOVMIX
@@ -31,8 +30,8 @@
         <div class="text-white space-x-6 flex px-6 items-center justify-end">
             <nav class="hidden text-sm sm:flex gap-4 border-white border-r pr-6">
                 <a href="../home/index.html" class="text-red-700 duration-300 transition-all">Home</a>
-                <a href="#" class="hover:text-red-700 duration-300 transition-all">Genre</a>
-                <a href="#" class="hover:text-red-700 duration-300 transition-all">Country</a>
+                <a href="../genre/index.html" class="hover:text-red-700 duration-300 transition-all">Genre</a>
+                <a href="#" class="hover:text-red-700 duration-300 transition-all">Region</a>
                 <a href="../watchlist/index.html" class="hover:text-red-700 duration-300 transition-all">Watchlist</a>
                 <a href="#" class="hover:text-red-700 duration-300 transition-all">Settings</a>
             </nav>
@@ -64,7 +63,7 @@
     <!-- Section 2: main Section -->
     <!-- ============================================= -->
     <main
-        class="select-none relative w-full min-h-screen max-h-screen bg-[url(./assets/hero-bg.jpg)] bg-[length:100%_100%] bg-no-repeat bg-center">
+        class="select-none relative w-full min-h-screen max-h-screen bg-[url(../assets/hero-bg.jpg)] bg-[length:100%_100%] bg-no-repeat bg-center">
         <div class="size-full py-28 px-8 absolute top-0 left-0 bg-gradient-to-l from-transparent to-[#070707_90%]">
             <!-- film informations -->
             <div class="flex flex-col max-w-[330px]">
@@ -78,7 +77,7 @@
                 <div class="pb-4 pt-2 text-gray-400 text-xs">
                     <ul class="divide-x-[1px] divide-gray-400 flex gap-2">
                         <li class="flex gap-2 items-center">
-                            <img src="./assets/IMDB.png" alt="imdb" class="w-9 h-4 "> <span>8.2 <span
+                            <img src="../assets/IMDB.png" alt="imdb" class="w-9 h-4 "> <span>8.2 <span
                                     class="text-gray-500">(12.864)</span></span>
                         </li>
                         <li class="px-2">2021</li>
@@ -120,7 +119,7 @@
                 <div class="scroll-hidden flex overflow-x-auto gap-3 w-full max-w-full h-full items-center p-4 z-10">
                     <div
                         class="relative min-w-36 rounded-lg h-48 max-h-48 max-w-36 group duration-300 transition-all hover:-translate-y-2 hover:group">
-                        <img src="./assets/movie7.jpg"
+                        <img src="../assets/movie7.jpg"
                             class="absolute top-0 left-0 size-full rounded-lg group-hover:scale-110 duration-300 transition-all"
                             alt="">
                         <p
@@ -135,7 +134,7 @@
                     </div>
                     <div
                         class="relative min-w-36 rounded-lg h-48 max-h-48 max-w-36 group duration-300 transition-all hover:-translate-y-2 hover:group">
-                        <img src="./assets/movie1.jpg"
+                        <img src="../assets/movie1.jpg"
                             class="absolute top-0 left-0 size-full rounded-lg group-hover:scale-110 duration-300 transition-all"
                             alt="">
                         <p
@@ -150,7 +149,7 @@
                     </div>
                     <div
                         class="relative min-w-36 rounded-lg h-48 max-h-48 max-w-36 group duration-300 transition-all hover:-translate-y-2 hover:group">
-                        <img src="./assets/movie2.jpg"
+                        <img src="../assets/movie2.jpg"
                             class="absolute top-0 left-0 size-full rounded-lg group-hover:scale-110 duration-300 transition-all"
                             alt="">
                         <p
@@ -165,7 +164,7 @@
                     </div>
                     <div
                         class="relative min-w-36 rounded-lg h-48 max-h-48 max-w-36 group duration-300 transition-all hover:-translate-y-2 hover:group">
-                        <img src="./assets/movie3.jpg"
+                        <img src="../assets/movie3.jpg"
                             class="absolute top-0 left-0 size-full rounded-lg group-hover:scale-110 duration-300 transition-all"
                             alt="">
                         <p
@@ -180,7 +179,7 @@
                     </div>
                     <div
                         class="relative min-w-36 rounded-lg h-48 max-h-48 max-w-36 group duration-300 transition-all hover:-translate-y-2 hover:group">
-                        <img src="./assets/movie4.jpg"
+                        <img src="../assets/movie4.jpg"
                             class="absolute top-0 left-0 size-full rounded-lg group-hover:scale-110 duration-300 transition-all"
                             alt="">
                         <p
@@ -195,7 +194,7 @@
                     </div>
                     <div
                         class="relative min-w-36 rounded-lg h-48 max-h-48 max-w-36 group duration-300 transition-all hover:-translate-y-2 hover:group">
-                        <img src="./assets/movie4.jpg"
+                        <img src="../assets/movie4.jpg"
                             class="absolute top-0 left-0 size-full rounded-lg group-hover:scale-110 duration-300 transition-all"
                             alt="">
                         <p
@@ -210,7 +209,7 @@
                     </div>
                     <div
                         class="relative min-w-36 rounded-lg h-48 max-h-48 max-w-36 group duration-300 transition-all hover:-translate-y-2 hover:group">
-                        <img src="./assets/movie5.jpg"
+                        <img src="../assets/movie5.jpg"
                             class="absolute top-0 left-0 size-full rounded-lg group-hover:scale-110 duration-300 transition-all"
                             alt="">
                         <p
@@ -225,7 +224,7 @@
                     </div>
                     <div
                         class="relative min-w-36 rounded-lg h-48 max-h-48 max-w-36 group duration-300 transition-all hover:-translate-y-2 hover:group">
-                        <img src="./assets/movie6.jpg"
+                        <img src="../assets/movie6.jpg"
                             class="absolute top-0 left-0 size-full rounded-lg group-hover:scale-110 duration-300 transition-all"
                             alt="">
                         <p
@@ -240,7 +239,7 @@
                     </div>
                     <div
                         class="relative min-w-36 rounded-lg h-48 max-h-48 max-w-36 group duration-300 transition-all hover:-translate-y-2 hover:group">
-                        <img src="./assets/movie7.jpg"
+                        <img src="../assets/movie7.jpg"
                             class="absolute top-0 left-0 size-full rounded-lg group-hover:scale-110 duration-300 transition-all"
                             alt="">
                         <p
@@ -255,7 +254,7 @@
                     </div>
                     <div
                         class="relative min-w-36 rounded-lg h-48 max-h-48 max-w-36 group duration-300 transition-all hover:-translate-y-2 hover:group">
-                        <img src="./assets/movie1.jpg"
+                        <img src="../assets/movie1.jpg"
                             class="absolute top-0 left-0 size-full rounded-lg group-hover:scale-110 duration-300 transition-all"
                             alt="">
                         <p
@@ -270,7 +269,7 @@
                     </div>
                     <div
                         class="relative min-w-36 rounded-lg h-48 max-h-48 max-w-36 group duration-300 transition-all hover:-translate-y-2 hover:group">
-                        <img src="./assets/movie1.jpg"
+                        <img src="../assets/movie1.jpg"
                             class="absolute top-0 left-0 size-full rounded-lg group-hover:scale-110 duration-300 transition-all"
                             alt="">
                         <p
@@ -285,7 +284,7 @@
                     </div>
                     <div
                         class="relative min-w-36 rounded-lg h-48 max-h-48 max-w-36 group duration-300 transition-all hover:-translate-y-2 hover:group">
-                        <img src="./assets/movie1.jpg"
+                        <img src="../assets/movie1.jpg"
                             class="absolute top-0 left-0 size-full rounded-lg group-hover:scale-110 duration-300 transition-all"
                             alt="">
                         <p
@@ -331,7 +330,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -353,7 +352,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -375,7 +374,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -396,7 +395,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -417,7 +416,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -438,7 +437,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -459,7 +458,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -480,7 +479,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -501,7 +500,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -522,7 +521,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -569,7 +568,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -591,7 +590,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -613,7 +612,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -634,7 +633,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -655,7 +654,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -676,7 +675,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -697,7 +696,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -718,7 +717,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -739,7 +738,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
@@ -760,7 +759,7 @@
                     <!-- image -->
                     <div
                         class="w-full h-80 sm:h-60 relative rounded-sm group-hover:scale-105 duration-300 transition-all">
-                        <img src="./assets/movie1.jpg" class="size-full rounded-sm" alt="">
+                        <img src="../assets/movie1.jpg" class="size-full rounded-sm" alt="">
                         <div
                             class="size-full bg-gradient-to-t from-[#070707] to-transparent absolute top-0 left-0 rounded-sm">
                         </div>
