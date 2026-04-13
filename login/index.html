@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVMIX | LOGIN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet" />
+
+    <style>
+        .font-BebasNeue {
+            font-family: "Bebas Neue", system-ui;
+        }
+
+    </style>
+</head>
+
+<body class="min-h-screen bg-gradient-to-b from-[#070707_80%] to-zinc-900 overflow-x-hidden">
+    <main class="relative min-h-screen flex justify-center items-center select-none">
+
+        <div class="min-h-screen absolute inset-0 w-full">
+            <div class="relative size-full">
+                <img src="../assets/login-img.jpg" class="blur-sm size-full">
+                <div class="absolute inset-0 size-full bg-gradient-to-b from-transparent to-[#070707]"></div>
+            </div>
+        </div>
+        <div class="flex justify-center absolute z-20">
+            <form action=""
+                class="text-gray-100 mx-4 sm:mx-0 border border-sm bg-[#00000065] shadow-[0_0_10px_2px_#00000056] border-[#00000036] p-4 flex flex-col gap-8 items-center justify-center rounded-lg">
+                <div class="w-full">
+                    <h1 class="text-3xl skew-x-6 tracking-wide font-BebasNeue text-red-700 cursor-default">
+                        MOVMIX
+                    </h1>
+                    <p class="text-gray-300">Welcome Back</p>
+                </div>
+                <div class="flex gap-4 flex-col">
+                    <div class="relative flex items-center">
+                        <input id="email" name="email" autocomplete="off" type="text"
+                            class="peer border-b border-solid border-red-700 bg-transparent px-2 w-96 py-3 outline-none">
+                        <label for="email" class="absolute left-2 top-3 text-gray-500 transition-all duration-500
+           peer-focus:-top-[10px]
+           peer-focus:left-2
+           peer-focus:text-xs
+           peer-focus:text-gray-100
+           peer-placeholder-shown:top-3
+           peer-placeholder-shown:text-base">
+                            Email
+                        </label>
+                    </div>
+                    <div class="relative flex items-center">
+                        <input id="password" name="password" autocomplete="off" type="password"
+                            class="peer border-b border-solid border-red-700 bg-transparent px-2 w-96 py-3 outline-none">
+                        <label for="password" class="absolute left-2 top-3 text-gray-500 transition-all duration-500
+           peer-focus:-top-[10px]
+           peer-focus:left-2
+           peer-focus:text-xs
+           peer-focus:text-gray-100
+           peer-placeholder-shown:top-3
+           peer-placeholder-shown:text-base">
+                            Password
+                        </label>
+                    </div>
+                </div>
+
+                <div class="w-full flex justify-end gap-3">
+                    <button
+                        class="active:scale-90 duration-300 font-medium transition-all px-4 py-1 shadow-md shadow-red-900 border border-red-700 rounded-full"
+                        type="reset">Cancel</button>
+                    <button
+                        class="active:scale-90 duration-300 font-medium transition-all px-6 py-1 shadow-md shadow-red-900 bg-red-700 rounded-full"
+                        type="submit">Next</button>
+                </div>
+                <p class="p-4 w-full text-center font-BebasNeue tracking-wider">
+                    new to movmix ? <a class="text-red-700" href="../regestar">sigin up</a>
+                </p>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
